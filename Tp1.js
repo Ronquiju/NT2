@@ -59,3 +59,6 @@ const jugadores = [
     
     const nombreJugadores = jugadores.map(nombre => jugadores.nombre);
     console.log(nombreJugadores);
+
+    const promedioEdad = (jugadores.reduce((valPrevio , valActual) => jugadores.edad + jugadores.edad, 0))/jugadores.length;
+    console.log(promedio);
